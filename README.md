@@ -27,5 +27,8 @@ Schema for project:
 To run the Python scripts:
 ----------------------------------------
 1- run lack.ipynp to create the infrastructure of aws.
+
 2- run create_table.py to create your fact and dimension tables for the star schema in Redshift.
+
 3-run etl.py to load data from S3 into staging tables on Redshift and then process that data into your analytics tables on Redshift.
+
